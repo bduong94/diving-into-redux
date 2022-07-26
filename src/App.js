@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       {!show && <Auth />}
+      {show && <UserProfile />}
       <Counter />
     </>
   );
